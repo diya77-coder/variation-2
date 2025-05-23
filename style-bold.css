@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #fff7f0;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  list-style: none;
+  background: #ff4f5a;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  margin: 0 0.5rem;
+}
+
+header {
+  padding: 4rem 2rem;
+  background: #fff0f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.col {
+  flex: 1 1 50%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff0054;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #ff0054;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e6004d;
+}
+
+button a {
+  color: white;
+}
+
+.intro-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(255, 0, 84, 0.2);
+}
+
+.skills {
+  padding: 2rem;
+  background: #ffe2dc;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ff0054;
+}
+
+.skills ul li {
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #ff0054;
+}
+
+.project {
+  padding: 3rem 2rem;
+  background: #ffffff;
+  border-top: 2px dashed #ffb6c1;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+figcaption {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+.project p {
+  margin: 1rem 0;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 2.5rem;
+  background: #ff0054;
+  color: white;
+  font-size: 1rem;
+}
